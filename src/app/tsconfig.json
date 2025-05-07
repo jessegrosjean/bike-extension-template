@@ -1,0 +1,3 @@
+{
+  "extends": "bike-extension-api/app/tsconfig.json",
+}

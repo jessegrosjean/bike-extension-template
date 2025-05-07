@@ -1,0 +1,14 @@
+# vscode
+.vscode 
+
+# npm
+node_modules
+
+# Don't include out, upload to GitHub releases instead.
+out
+
+# Exclude sourcemaps
+*.map
+
+# Exclude macOS Finder
+.DS_Store
