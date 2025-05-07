@@ -1,3 +1,5 @@
+!!! Work in Progress. This project is not ready for use yet.
+
 # Bike Extension Template
 
 This is a template project for building Bike 2 extensions.
