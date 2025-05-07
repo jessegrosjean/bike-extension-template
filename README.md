@@ -32,7 +32,9 @@ Bike extensions can contribute code in three contexts:
   not CSS, they are defined using Typescript code. Code in this context should
   use `import { SYMBOL } from '@style'` to access Bike style context API.
 
-Each context coresponds to a folder in `src`.
+Each context coresponds to a folder in `src`. You can delete a folder if your
+extension will not add code in that context. The `tsconfig.json` file in each
+folder is important to make API type checking work.
 
 # Next Steps
 
