@@ -30,20 +30,23 @@ purpose and environment:
 - Interact with outlines, clipboard, networking, etc.
 - Some API's require appropriate `manifest.json` permissions.
 - Import @app context API using `import { SYMBOL } from '@app'`.
+- [@app context API Documention](https://github.com/jessegrosjean/bike-extension-api/tree/main/app).
 
 ### @dom: DOM/HTML Views
 
 - Runs inside a WebView embedded in Bike’s UI.
 - WebViews are sandboxed and have no network access.
 - Use this context to define HTML/DOM-based views, such as panels or sheets.
-- These views are loaded dynamically from APIs in the @app context.
+- These views are loaded dynamically from @app context APIs.
 - Import @dom context API using  `import { SYMBOL } from '@dom'`.
+- [@dom context API Documention](https://github.com/jessegrosjean/bike-extension-api/tree/main/dom).
 
 ### @style: Outline Editor Styles
 
 - Used to define custom stylesheets for Bike’s outline editor.
 - Most extensions will not need this; delete the src/style folder if unused.
 - Import @style context API using  `import { SYMBOL } from '@style'`.
+- [@style context API Documention](https://github.com/jessegrosjean/bike-extension-api/tree/main/style).
 
 > ✅ Each folder contains a `tsconfig.json` file to enable type checking.  
 > 🗂 Each context corresponds to a subfolder in `src/`. Delete unused folders.  
