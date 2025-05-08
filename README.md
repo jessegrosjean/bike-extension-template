@@ -45,17 +45,12 @@ purpose and environment:
 - Most extensions will not need this; delete the src/style folder if unused.
 - Import @style context API using  `import { SYMBOL } from '@style'`.
 
-> 📞 @app and @dom code from same extension can communicate using `postMessage`.  
-> 🗂 Each context corresponds to a subfolder in `src/`. Delete unused folders.  
 > ✅ Each folder contains a `tsconfig.json` file to enable type checking.  
+> 🗂 Each context corresponds to a subfolder in `src/`. Delete unused folders.  
+> ☎️ @app and @dom from the same extension can communicate using `postMessage`.  
 
 # Next Steps
 
 1. Modify or remove `src/app/main.ts` for `@app` logic.
 2. Modify, add, or remove files under `src/dom` for UI components.
 3. Modify or remove `src/style/main.ts` for stylesheet code.
-
-This project depends on the
-[`bike-extension-api`](https://github.com/jessegrosjean/bike-extension-api)
-package. That package provides type definitions for each of the three extension
-contexts in addition to build and configuration tools.
