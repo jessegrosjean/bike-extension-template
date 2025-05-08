@@ -17,8 +17,7 @@ working extension setup with best practices to help you get started quickly.
 
 The built extension is named by `id` and placed into `./out`.
 
-> 💡 You can modify `./build.js` to output directly into Bike's Extensions
-> folder. This enables live reloading as you make changes.
+> 💡 You can modify `./build.js` to output directly into Bike's Extensions folder.
 
 ## Extension Contexts
 
@@ -46,9 +45,9 @@ purpose and environment:
 - Most extensions will not need this; delete the src/style folder if unused.
 - Import @style context API using  `import { SYMBOL } from '@style'`.
 
-> 📞 @app and @dom code from same extension can communicate using `postMessage`.
-> 🗂 Each context corresponds to a subfolder in `src/`. Delete unused folders.
-> ✅ Each folder contains a `tsconfig.json` file to enable type checking.
+> 📞 @app and @dom code from same extension can communicate using `postMessage`.  
+> 🗂 Each context corresponds to a subfolder in `src/`. Delete unused folders.  
+> ✅ Each folder contains a `tsconfig.json` file to enable type checking.  
 
 # Next Steps
 
