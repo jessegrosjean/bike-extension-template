@@ -1,5 +1,5 @@
 {
-	"description": "This is a package for building a Bike (https://www.hogbaysoftware.com/bike/) extensions.",
+	"description": "Template package for building Bike (https://www.hogbaysoftware.com/bike/) extensions.",
 	"scripts": {
 		"dev": "node build.mjs",
 		"build": "node build.mjs production"
@@ -8,7 +8,7 @@
 	"author": "",
 	"license": "MIT",
 	"dependencies": {
-		"bike-extension-api": "file:../bike-extension-api"
+		"bike-extension-api": "github:jessegrosjean/bike-extension-api"
 	},
 	"peerDependencies": {
 		"@types/react": "^19.1.3",
