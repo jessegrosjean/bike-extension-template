@@ -17,7 +17,7 @@ working extension setup with best practices to help you get started quickly.
 
 The built extension is named by `id` and placed into `./out`.
 
-> 💡 You can modify `./build.js` to output directly into Bike's Extensions folder.
+> 💡 You can modify `./build.mjs` to output directly into Bike's Extensions folder.
 
 ## Extension Contexts
 
